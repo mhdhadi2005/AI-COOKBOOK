@@ -1,6 +1,27 @@
-# Introduction
+# AI Cookbook
 
 This Cookbook contains examples and tutorials to help developers build AI systems with copy/paste code snippets that you can easily integrate into your own projects.
+
+## What's inside
+
+| Folder | Topic |
+|---|---|
+| [`agents/agent-complexity`](agents/agent-complexity) | 5 levels of AI agent complexity — from simple prompt calls to fully autonomous agents |
+| [`agents/building-blocks`](agents/building-blocks) | The 7 foundational building blocks used across real AI applications |
+| [`patterns/workflows`](patterns/workflows) | Practical patterns for building effective, composable LLM workflows in pure Python (no heavy frameworks) |
+| [`knowledge/agentic-rag`](knowledge/agentic-rag) | Building agentic RAG from scratch — letting an agent search source material directly instead of relying on a vector database |
+| [`knowledge/hybrid-retrieval`](knowledge/hybrid-retrieval) | Hybrid retrieval from scratch (BM25 + dense embeddings + reranker) for cases where queries paraphrase the source documents |
+| [`knowledge/docling`](knowledge/docling) | Knowledge extraction pipeline using Docling, for converting documents (PDFs, tables, etc.) into a unified format |
+| [`knowledge/mem0`](knowledge/mem0) | Giving AI agents long-term memory with mem0 |
+| [`mcp/crash-course`](mcp/crash-course) | A full Model Context Protocol crash course — core concepts through building servers/clients, OpenAI integration, Docker, and lifecycle management |
+| [`mcp/servers/youtube`](mcp/servers/youtube) | A minimal MCP server example — fetch YouTube transcripts on demand, usable from Claude Desktop or Claude Code |
+| [`models/openai`](models/openai) | Working with OpenAI's API — endpoints, structured output, assistants, the Responses API, video, human-in-the-loop |
+| [`models/whisper`](models/whisper) | Transcribing audio/video to text with OpenAI's Whisper model |
+| [`context/web`](context/web) | Combining an internal knowledge base with live web search results |
+| [`tools/uv-guide`](tools/uv-guide) | Guide to `uv`, the fast Rust-based Python package manager |
+| [`roadmaps`](roadmaps) | Learning roadmaps for AI engineering |
+
+Each folder is self-contained with its own README and runnable examples — pick whichever topic is relevant and copy what you need.
 
 ## About me
 
